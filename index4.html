@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G5 Burgers - Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="top-line">
+        <div class="logo-container">
+            <span class="brand-name">G5</span>
+            <img src="pics/burger.png" alt="G5 Burgers Logo" class="logo">
+        </div>
+        <div class="cart-container">
+            <a href="index4.html">
+                <img src="pics/cart.png" alt="Carrito de compra" class="cart-image">
+            </a>
+        </div>
+    </div>
+    <div class="cart-section">
+        <h2 class="category-title">Cart</h2>
+
+        <!-- Subcategorías (Quantity, Item, Price) -->
+        <div class="cart-table">
+            <div class="cart-row header">
+                <div class="cart-cell">Quantity</div>
+                <div class="cart-cell">Item</div>
+                <div class="cart-cell">Price</div>
+            </div>
+
+            <!-- Cheeseburger -->
+            <div class="cart-row">
+                <div class="cart-cell">2</div>
+                <div class="cart-cell">Cheeseburger</div>
+                <div class="cart-cell">$5.00</div>
+            </div>
+            <!-- Mint Iced Tea -->
+            <div class="cart-row">
+                <div class="cart-cell">1</div>
+                <div class="cart-cell">Mint Iced Tea</div>
+                <div class="cart-cell">$1.00</div>
+            </div>
+            <!-- Fanta -->
+            <div class="cart-row">
+                <div class="cart-cell">1</div>
+                <div class="cart-cell">Fanta</div>
+                <div class="cart-cell">$1.50</div>
+            </div>
+
+            <!-- Total -->
+            <div class="cart-row total">
+                <div class="cart-cell"></div>
+                <div class="cart-cell">Total</div>
+                <div class="cart-cell">$7.50</div>
+            </div>
+        </div>
+    </div>
+    <div class="pickup-category">
+        <h3 class="category-title">Pick up</h3>
+        <label for="restaurant">Select restaurant</label>
+        <select id="restaurant" name="restaurant">
+            <option value="" disabled selected>Select restaurant</option>
+            <option value="Airport">Airport</option>
+            <option value="Linnanmaa">Linnanmaa</option>
+            <option value="Toppila">Toppila</option>
+            <option value="Meritulli">Meritulli</option>
+        </select>
+    </div>
+    <div class="buttons-container">
+        <a href="index5.html" class="submit-order-button">SUBMIT ORDER</a>
+        <a href="index2.html" class="back-to-menu-button">BACK TO MENU</a>
+    </div>
+    <div class="bottom-line">
+        <div class="next-button-container">
+            <a href="index3.html" class="next-button">NEXT</a>
+        </div>
+    </div>
+    <div class="bottom-line">
+        <div class="next-button-container">
+            <a href="index3.html" class="next-button">NEXT</a>
+        </div>
+    </div>
+</body>
+</html>
